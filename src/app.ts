@@ -26,7 +26,7 @@ app.use('/webhook', whatsappRoutes);
 
 // Ruta principal
 app.get('/', (req, res) => {
-  res.send('¡Servidor funcionando correctamente!');
+  res.send('Servidor funcionando correctamente!');
 });
 
 // Verificación del Webhook
